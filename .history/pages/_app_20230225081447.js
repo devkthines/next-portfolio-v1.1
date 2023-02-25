@@ -8,6 +8,7 @@ import { useState,useEffect } from 'react';
 // import bg from '/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg'
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState(
+
     typeof window !== "undefined" ? localStorage.theme : "light"
       );
       const toggleTheme = () => {
@@ -28,6 +29,7 @@ function MyApp({ Component, pageProps }) {
         <title>&lt;Korey ❤️ Coding/&gt;</title>
         <link rel="icon" href="/puzzle-piece.svg" />
       </Head>
+
       <div className="top-bar">
         <Navigation/>
       </div>

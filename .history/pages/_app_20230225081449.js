@@ -8,6 +8,7 @@ import { useState,useEffect } from 'react';
 // import bg from '/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg'
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState(
+
     typeof window !== "undefined" ? localStorage.theme : "light"
       );
       const toggleTheme = () => {

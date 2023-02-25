@@ -24,13 +24,12 @@ console.log(data)
 <Container fluid>
   <Row>
     {data.map(x =>(
-    <Col className='d-flex justify-content-center mt-2 mb-2' xl={6} lg={6} md={6} sm={6} xs={12}>
+    <Col className='d-flex justify-content-center mt-2 mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>
   <div className="projCont">
   <Image src='/images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg'       width={100}
-      height={100} alt="Avatar" className="projImage"/>
-  <div className='hiddentProjects'>
-     <h5 className="content-text">{x.title}</h5>
-        {/* <p className="content-text">{x.subTitle}</p> */}
+      height={200} alt="Avatar" className="projImage"/>
+  <div className='hiddentProjects'> <h3 className="content-text">{x.title}</h3>
+        <p className="content-text">{x.subTitle}</p>
        <a className='content-links' href={x.gitLink}><GoMarkGithub/></a>
        <a className='content-links' href={x.demoLink}><AiOutlineLink/></a> </div>
 </div>

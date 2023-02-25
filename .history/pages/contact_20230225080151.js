@@ -98,7 +98,7 @@ export default function Contact() {
          className={(formik.errors.message && formik.touched.message ? ' invalid' : '')}
         id="message" type="message" name='message' placeholder='Type Your Message' {...formik.getFieldProps('message')} />
         {formik.touched.message && formik.errors.message ? (
-          <div><h5 className='err'>{formik.errors.message}</h5></div>
+          <div>{formik.errors.message}</div>
         ) : null} </Col>
       </Row><Row className='mt-3 mb-3'>
         <Col className='text-center'> <button id='contactBtn' type="submit" className='mx-auto'>Submit</button></Col>

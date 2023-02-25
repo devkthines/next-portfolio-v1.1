@@ -82,7 +82,7 @@ export default function Contact() {
           id="phone" type="phone" name='phone' placeholder='Enter Your Phone #'
            {...formik.getFieldProps('phone')} />
           {formik.touched.phone && formik.errors.phone ? (
-            <div><h5 className='err'>{formik.errors.phone}</h5></div>
+            <div>{formik.errors.phone}</div>
           ) : null}
         </Col></Row>
       <Row className='mt-3 mb-3'><Col>
@@ -90,7 +90,7 @@ export default function Contact() {
           className={(formik.errors.subject && formik.touched.subject ? ' invalid' : '')}
         {...formik.getFieldProps('subject')} />
         {formik.touched.subject && formik.errors.subject ? (
-          <div><h5 className='err'>{formik.errors.subject}</h5></div>
+          <div>{formik.errors.subject}</div>
         ) : null}
       </Col>     </Row>
       <Row className='mt-3 mb-3'><Col className='text-center'>
@@ -98,7 +98,7 @@ export default function Contact() {
          className={(formik.errors.message && formik.touched.message ? ' invalid' : '')}
         id="message" type="message" name='message' placeholder='Type Your Message' {...formik.getFieldProps('message')} />
         {formik.touched.message && formik.errors.message ? (
-          <div><h5 className='err'>{formik.errors.message}</h5></div>
+          <div>{formik.errors.message}</div>
         ) : null} </Col>
       </Row><Row className='mt-3 mb-3'>
         <Col className='text-center'> <button id='contactBtn' type="submit" className='mx-auto'>Submit</button></Col>

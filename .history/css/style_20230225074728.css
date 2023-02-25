@@ -5,20 +5,24 @@
 }
 
 .App {
+    background-color: #1d3557;
     font-family: Cascade Mono;
     background-image: url('/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 100vh;
     max-width: 100vw;
+    /* overflow: hidden; */
 }
 
 .dark {
-    color: #e63946 !important;
+    background-color: #1d3557 !important;
+    color: #a8dadc !important;
 }
 
 .light {
-    color: #f1faee !important;
+    background-color: #f1faee !important;
+    color: #e63946 !important;
 }
 
 .nav-link {
@@ -159,7 +163,7 @@
 
 
 #footer {
-    height: auto;
+    height: 5vh;
 }
 
 
@@ -246,41 +250,37 @@
 .projCont {
     width: 300px;
     height: auto;
-    border: 1px solid #f1faee;
-    color: #f1faee;
-    background-color: #457b9d;
-    border-radius: 10px;
+    border: 2px solid #e63946;
+    border-radius: 6px;
+    background-color: #333;
+    color: #e63946;
 }
 
 .content-text {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .content-links {
     margin: 0 10px;
-    color: #a8dadc;
+    color: #e63946;
     width: 50px !important;
     height: 50px !important;
 }
 
 .content-links:hover {
-    color: #e63946;
+    color: #457b9d;
 }
-.content-links:focus {
-    color: #e63946;
-}
+
 #projects {
     border-radius: 1rem;
     background-color: #1d3557;
     width: 90vw;
-    height: 87.5vh;
     margin: auto;
 }
 
 .projImage{
-    width: 100%;
+    width: 300px;
     height: 200px;
-    border-radius: 10px;
 }
 
 
@@ -341,11 +341,11 @@ textarea:focus {
     border: 2px solid #a8dadc;
     color: #a8dadc;
     background-color: #333;
-    border-radius: 10px;
-    padding: 3px;
+    border-radius: 4px;
 }
 
 .hiddentProjects {
+    border: 2px solid #e63946;
     height: fit-content;
     text-align: center;
 }
@@ -354,20 +354,18 @@ textarea:focus {
     border: 1px solid #f1faee!important;
 }
 .form-check-input:focus {
-    border-color: #e63946!important;
+    border-color: #e63946;
     outline: 0;
     box-shadow: 0 0 0 0.25rem #e63946!important;
 }
-.err{
-    color: #e63946;
-}
-@media(max-width:1440px) {
+@media(max-width:768px) {
 
     .App {
+        background-image: none !important;
         width: 100%;
-        /* overflow-x: hidden !important; */
+        overflow-x: hidden !important;
         height: 100%;
-        /* background-color: #e63946; */
+        background-color: #e63946;
     }
 
     .spec.card {
@@ -387,9 +385,6 @@ textarea:focus {
     }
 
     #contact {
-        height: auto;
-    }
-    #projects {
         height: auto;
     }
 }

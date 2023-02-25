@@ -5,15 +5,16 @@
 }
 
 .App {
+    background-color: #1d3557;
     font-family: Cascade Mono;
     background-image: url('/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
     max-width: 100vw;
 }
 
 .dark {
+    background-color: #1d3557 !important;
     color: #e63946 !important;
 }
 
@@ -159,7 +160,7 @@
 
 
 #footer {
-    height: auto;
+    height: 5vh;
 }
 
 

@@ -29,8 +29,8 @@ console.log(data)
   <Image src='/images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg'       width={100}
       height={100} alt="Avatar" className="projImage"/>
   <div className='hiddentProjects'>
-     <h5 className="content-text">{x.title}</h5>
-        {/* <p className="content-text">{x.subTitle}</p> */}
+     <p className="content-text">{x.title}</h3>
+        <p className="content-text">{x.subTitle}</p>
        <a className='content-links' href={x.gitLink}><GoMarkGithub/></a>
        <a className='content-links' href={x.demoLink}><AiOutlineLink/></a> </div>
 </div>

@@ -5,20 +5,24 @@
 }
 
 .App {
+    background-color: #1d3557;
     font-family: Cascade Mono;
     background-image: url('/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    /* height: 100vh; */
     max-width: 100vw;
+    /* overflow: hidden; */
 }
 
 .dark {
-    color: #e63946 !important;
+    background-color: #1d3557 !important;
+    color: #a8dadc !important;
 }
 
 .light {
-    color: #f1faee !important;
+    background-color: #f1faee !important;
+    color: #e63946 !important;
 }
 
 .nav-link {
@@ -159,7 +163,7 @@
 
 
 #footer {
-    height: auto;
+    height: 5vh;
 }
 
 
@@ -258,17 +262,15 @@
 
 .content-links {
     margin: 0 10px;
-    color: #a8dadc;
+    color: #e63946;
     width: 50px !important;
     height: 50px !important;
 }
 
 .content-links:hover {
-    color: #e63946;
+    color: #457b9d;
 }
-.content-links:focus {
-    color: #e63946;
-}
+
 #projects {
     border-radius: 1rem;
     background-color: #1d3557;
@@ -280,7 +282,6 @@
 .projImage{
     width: 100%;
     height: 200px;
-    border-radius: 10px;
 }
 
 
@@ -346,6 +347,7 @@ textarea:focus {
 }
 
 .hiddentProjects {
+    border: 2px solid #;
     height: fit-content;
     text-align: center;
 }
