@@ -135,41 +135,41 @@ export default function Home() {
         </Row>
         <Row className='mt-5'>
           {/* <div id='what'> */}
-          <Col className='d-flex justify-content-center mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>
+          <Col className='d-flex justify-content-center mb-1' xl={3} lg={3} md={6} sm={6} xs={12}>
             <Card style={{ width: '18rem', height: '14rem' }} id='uno'>
               <Card.Body>
                 <Card.Title><h2><MdVolunteerActivism /> Volunteering</h2></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                 <Card.Text>
-                 <p>Besides Coding, I love to help others in any way I have. The reward of being able to do something for someone
-                  without expecting anything in return is satisfying and rewarding.</p>
+                 P Besides Coding, I love to help others in any way I have. The reward of being able to do something for someone
+                  without expecting anything in return is satisfying and rewarding.
                 </Card.Text>
               </Card.Body>
-            </Card> </Col><Col className='d-flex justify-content-center mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>   <Card style={{ width: '18rem', height: '14rem' }}>
+            </Card> </Col><Col className='d-flex justify-content-center mb-1' xl={3} lg={3} md={6} sm={6} xs={12}>   <Card style={{ width: '18rem', height: '14rem' }}>
               <Card.Body>
                 <Card.Title><h2><IoLogoCss3 /> User Interfaces</h2></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                 <Card.Text>
-                 <p>I have a passion for React and CSS, and anything to do with the design and development of User Interfaces! It is where I
-                  tend to spend most of my time!</p>
+                  I have a passion for React and CSS, and anything to do with the design and development of User Interfaces! It is where I
+                  tend to spend most of my time!
                 </Card.Text>
               </Card.Body>
-            </Card> </Col><Col className='d-flex justify-content-center mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>  <Card style={{ width: '18rem', height: '14rem' }}>
+            </Card> </Col><Col className='d-flex justify-content-center mb-1' xl={3} lg={3} md={6} sm={6} xs={12}>  <Card style={{ width: '18rem', height: '14rem' }}>
               <Card.Body>
                 <Card.Title><h3><IoLogoJavascript /> All Things JS</h3></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                 <Card.Text>
-                <p> I have Experience and a strong foundation in the MERN Stack, and am capable of using Node.js, Express, MongoDB, and anything
-                  I set out to learn.</p>
+                  I have Experience and a strong foundation in the MERN Stack, and am capable of using Node.js, Express, MongoDB, and anything
+                  I set out to learn.
                 </Card.Text>
               </Card.Body>
-            </Card>  </Col><Col className='d-flex justify-content-center mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>  <Card style={{ width: '18rem', height: '14rem' }}>
+            </Card>  </Col><Col className='d-flex justify-content-center mb-1' xl={3} lg={3} md={6} sm={6} xs={12}>  <Card style={{ width: '18rem', height: '14rem' }}>
               <Card.Body>
                 <Card.Title><h3><CgGym /> Crossfit Lover</h3></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                 <Card.Text>
-                <p> If I need to take a break from coding, you can usually find me at the gym hitting the refresh button and pushing
-                  my body to the limits. I do it for mental and physical health.</p>
+                  If I need to take a break from coding, you can usually find me at the gym hitting the refresh button and pushing
+                  my body to the limits. I do it for mental and physical health.
                 </Card.Text>
               </Card.Body>
             </Card></Col>

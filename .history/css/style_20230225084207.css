@@ -95,7 +95,7 @@
 .card {
     color: #f1faee !important;
     background-color: #457b9d !important;
-    height: auto!important;
+    height: 20;
 }
 
 .card:hover {

@@ -135,7 +135,7 @@ export default function Home() {
         </Row>
         <Row className='mt-5'>
           {/* <div id='what'> */}
-          <Col className='d-flex justify-content-center mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>
+          <Col className='d-flex justify-content-center mb-1' xl={3} lg={3} md={6} sm={6} xs={12}>
             <Card style={{ width: '18rem', height: '14rem' }} id='uno'>
               <Card.Body>
                 <Card.Title><h2><MdVolunteerActivism /> Volunteering</h2></Card.Title>
@@ -145,7 +145,7 @@ export default function Home() {
                   without expecting anything in return is satisfying and rewarding.</p>
                 </Card.Text>
               </Card.Body>
-            </Card> </Col><Col className='d-flex justify-content-center mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>   <Card style={{ width: '18rem', height: '14rem' }}>
+            </Card> </Col><Col className='d-flex justify-content-center mb-1' xl={3} lg={3} md={6} sm={6} xs={12}>   <Card style={{ width: '18rem', height: '14rem' }}>
               <Card.Body>
                 <Card.Title><h2><IoLogoCss3 /> User Interfaces</h2></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -154,7 +154,7 @@ export default function Home() {
                   tend to spend most of my time!</p>
                 </Card.Text>
               </Card.Body>
-            </Card> </Col><Col className='d-flex justify-content-center mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>  <Card style={{ width: '18rem', height: '14rem' }}>
+            </Card> </Col><Col className='d-flex justify-content-center mb-1' xl={3} lg={3} md={6} sm={6} xs={12}>  <Card style={{ width: '18rem', height: '14rem' }}>
               <Card.Body>
                 <Card.Title><h3><IoLogoJavascript /> All Things JS</h3></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
@@ -163,7 +163,7 @@ export default function Home() {
                   I set out to learn.</p>
                 </Card.Text>
               </Card.Body>
-            </Card>  </Col><Col className='d-flex justify-content-center mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>  <Card style={{ width: '18rem', height: '14rem' }}>
+            </Card>  </Col><Col className='d-flex justify-content-center mb-1' xl={3} lg={3} md={6} sm={6} xs={12}>  <Card style={{ width: '18rem', height: '14rem' }}>
               <Card.Body>
                 <Card.Title><h3><CgGym /> Crossfit Lover</h3></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
