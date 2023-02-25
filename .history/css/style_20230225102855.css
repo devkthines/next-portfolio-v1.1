@@ -9,9 +9,7 @@
     background-image: url('/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg');
     background-repeat: repeat;
     background-size: cover;
-    height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    height: auto;
     max-width: 100vw;
     color: #f1faee;
 }
@@ -377,7 +375,11 @@ textarea:focus {
 }
 @media(max-width:1440px) {
 
-
+    .App {
+        /* overflow-x: hidden !important; */
+        height: auto;
+        /* background-color: #e63946; */
+    }
 
     .spec.card {
         height: auto;

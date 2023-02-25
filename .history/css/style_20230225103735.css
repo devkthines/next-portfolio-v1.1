@@ -11,7 +11,7 @@
     background-size: cover;
     height: 100vh;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: ;
     max-width: 100vw;
     color: #f1faee;
 }

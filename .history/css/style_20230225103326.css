@@ -10,8 +10,6 @@
     background-repeat: repeat;
     background-size: cover;
     height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
     max-width: 100vw;
     color: #f1faee;
 }
@@ -375,9 +373,13 @@ textarea:focus {
 .err{
     color: #e63946;
 }
-@media(max-width:1440px) {
+@media(max-width:2000px) {
 
-
+    .App {
+        /* overflow-x: hidden !important; */
+height: 100%;
+        background-color: #e63946;
+    }
 
     .spec.card {
         height: auto;
