@@ -63,7 +63,7 @@ export default function Skills() {
 
   return (
     <>
-      <Container fluid id='resume'>
+      <Container id='resume'>
         <h1 className='conLine'>Resume</h1>
         <Row>
           <Col  xl={6} md={6} sm={6} xs={12}> <div className='resBody'>
