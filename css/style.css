@@ -1,182 +1,375 @@
-* {
-  font-family: 'Open Sans', sans-serif;
-  box-sizing: border-box;
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-/* Nav Area */
-.top-bar {
-  width: 100%;
-  margin-top: 0;
-  position: relative;
-  height: 80px;
-  text-align: right;
-}
-#title {
-  position: absolute;
-  left: 20px;
-  top: 0;
-  display: inline-block;
-  height: 100%;
-}
-.nav {
-  height: 100%;
-  display: inline-block;
-}
-.nav a {
-  margin: 0 20px;
-  font-size: 120%;
-  height: 100%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+.App {
+    background-color: #1d3557;
+    font-family: Cascade Mono;
+    background-image: url('../images/markus-spiske-GXBF7vaC6L8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100vw;
+    /* overflow: hidden; */
 }
 
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.dark {
+    background-color: #1d3557 !important;
+    color: #a8dadc !important;
 }
 
-/* Styles for Cards */
+.light {
+    background-color: #f1faee !important;
+    color: #e63946 !important;
+}
+
+.nav-link {
+    color: #f1faee !important;
+    display: inline-block;
+    position: relative;
+}
+
+.conIcons {
+    /* border: 2px solid #a8dadc;
+    border-radius: 50px; */
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: #457b9d;
+    color: #a8dadc;
+}
+
+.nav-link::after {
+    /* background: none repeat scroll 0 0 transparent; */
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #f1faee;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.conLine::after {
+    display: inline-block;
+    margin: 1 0px;
+    content: "";
+    height: 1px;
+    width: 125px;
+    border: 1px solid #e63946;
+}
+
+#contact {
+    width: 80%;
+    height: 87.5vh;
+    background-color: #1d3557;
+    border-radius: 1.5rem;
+    opacity: .75;
+}
+
+.btnlink {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 12px !important;
+
+}
+
+#nav {
+    height: 7.5vh;
+    background-color: transparent;
+}
+
 .card {
-  display: inline-block;
-  width: 300px;
-  height: 400px;
-  overflow: hidden;
-  border: 1.25px solid rgb(233, 233, 233);
-  border-radius: 16px;
-  margin: 10px;
-  transition: 0.5s all;
-  --shadow: transparent;
-  box-shadow: 0 0 10px 5px var(--shadow);
-  position: relative;
-  font-size: 100%;
+    color: #f1faee !important;
+    background-color: #457b9d !important;
 }
 
 .card:hover {
-  --shadow: rgba(53, 53, 53, 0.103);
-  /* transform: rotateY(180deg) translate(20px, 20px);
-  background: pink; */
+    box-shadow: 0 0 25px #e63946;
+    transform: translateY(-20px);
+    transition: all 500ms ease-in-out;
 }
 
-.card:hover .main-content {
-  pointer-events: initial;
-  opacity: 1;
+.change {
+    width: 100%;
 }
 
-.card * {
-  margin: 0;
+#spec {
+    font-size: 40px;
 }
 
-.card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+#picMe {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
-.main-content {
-  padding: 25px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.5s all;
+.mainFrame {
+    height: 87.5vh;
 }
 
-.owner {
-  color: grey;
-  font-size: 110%;
+.quickness {
+    display: flex;
 }
 
-.pet-name {
-  font-weight: bold;
-  font-size: 130%;
+.quickLinks {
+    color: #f1faee;
+    background-color: #457b9d;
+    border: 1px solid #457b9d;
+    margin: 2px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
 }
 
-h5.pet-name {
-  color: white;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 10px;
-  text-shadow: 0px 0px 4px black;
+.quickLinks:hover {
+    color: #e63946;
+    background-color: #a8dadc;
+    transition: all 500ms;
 }
 
-.info ul {
-  padding: 10px;
-  padding-top: 0px;
-  border-radius: 7px;
+.aLink {
+    text-decoration: none;
+
 }
 
-li {
-  list-style-type: none;
-  margin: 0;
+
+#res {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.info {
-  color: rgb(83, 83, 83);
-  position: relative;
-  overflow: hidden;
+
+
+#footer {
+    height: 5vh;
 }
 
-.info.likes {
-  margin-top: 25px;
+
+#resume {
+    background-color: #1d3557;
+    opacity: .8;
+    border-radius: 1rem;
+    padding: 10px;
 }
 
-.label {
-  font-weight: bold;
+.progress-bar {
+    background-color: #e63946 !important;
 }
 
-.btn-container {
-  text-align: right;
-  padding: 10px;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+.progress {
+    height: 25px !important;
+    font-size: 20px !important;
+    border-radius: 50px !important;
 }
 
-.btn {
-  --accent: grey;
-  cursor: pointer;
-  background: transparent;
-  border: 1.5px solid var(--accent);
-  color: var(--accent);
-  border-radius: 10px;
-  padding: 10px 15px;
-  font-size: 90%;
-  letter-spacing: 1px;
-  transition: 0.5s all;
-  outline: none;
+.spec.card {
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    transform: none;
+    box-shadow: none;
 }
 
-.btn:hover {
-  background: var(--accent);
-  color: white;
+.card-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.edit.btn {
-  --accent: green;
+.btnIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 99px;
+    font-size: 25px;
+    border: 1px solid #f1faee;
+    color: #f1faee;
+    background-color: #457b9d;
+    margin: 5px 10px;
 }
 
-.delete.btn {
-  --accent: red;
-  margin-left: 10px;
+.btnIcon:focus {
+    color: #e63946;
+    border: 1px solid #e63946;
+    background-color: #a8dadc;
 }
 
-.view.btn {
-  --accent: blue;
-  margin-left: 10px;
+#blinker {
+    animation: blinker 2s linear infinite;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
 }
 
-/* Delete Pet */
-.pet-container {
-  width: 100%;
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
-.confirmation-box.show {
-  display: block;
+#softSk {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.badge.bg-primary {
+    margin: 5px;
+    font-size: 20px !important;
+    padding: 5px;
+    background-color: #457b9d !important;
+    border: 1px solid #f1faee;
+}
+
+.stock {
+    width: 300px;
+    height: 200px;
+}
+
+.projCont {
+    width: 300px;
+    height: auto;
+    border: 2px solid #e63946;
+    border-radius: 6px;
+    background-color: #333;
+    color: #e63946;
+}
+
+.content-text {
+    margin: 10px 0;
+}
+
+.content-links {
+    margin: 0 10px;
+    color: #e63946;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.content-links:hover {
+    color: #457b9d;
+}
+
+#projects {
+    border-radius: 1rem;
+    background-color: #1d3557;
+    width: 90vw;
+    margin: auto;
+}
+
+.projImage{
+    width: 300px;
+    height: 200px;
+}
+
+
+.formStuff {
+    width: 400px !important;
+}
+
+.hide {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #a8dadc;
+    background-color: #333;
+    color: #a8dadc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input:focus {
+    background-color: #f1faee;
+    color: #333;
+}
+
+input::placeholder {
+    color: #a8dadc;
+}
+
+textarea::placeholder {
+    color: #a8dadc;
+}
+
+textarea {
+    border: 2px solid #a8dadc;
+    background-color: #333;
+    border-radius: 4px;
+    resize: none !important;
+    width: 80%;
+    height: 200px;
+}
+
+textarea:focus {
+    background-color: #f1faee;
+    color: #333;
+}
+
+.invalid {
+    border: none;
+    border-bottom: 2px solid #e63946;
+}
+
+#contactBtn {
+    border: 2px solid #a8dadc;
+    color: #a8dadc;
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.hiddentProjects {
+    border: 2px solid #e63946;
+    height: fit-content;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+
+    .App {
+        background-image: none !important;
+        width: 100%;
+        overflow-x: hidden !important;
+        height: 100%;
+        background-color: #e63946;
+    }
+
+    .spec.card {
+        height: auto;
+    }
+
+    .mainFrame {
+        height: auto;
+    }
+
+    .nav {
+        height: 12vh !important;
+    }
+
+    #spec {
+        font-size: 24px;
+    }
+
+    #contact {
+        height: auto;
+    }
 }
