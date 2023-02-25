@@ -215,9 +215,7 @@
     background-color: #a8dadc;
 }
 .btnIcon:active{
-    color: #e63946;
-    border: 1px solid #e63946;
-    background-color: #a8dadc;
+    
 }
 #blinker {
     animation: blinker 2s linear infinite;
