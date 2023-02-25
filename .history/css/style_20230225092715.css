@@ -13,7 +13,10 @@
     max-width: 100vw;
     color: #f1faee;
 }
-
+::-webkit-scrollbar-thumb {
+    background: #e63946;
+    border-radius: 10px;
+  }
 .dark {
     color: #e63946 !important;
 }
@@ -23,8 +26,7 @@
 }
 
 .nav-link {
-    color: #a8dadc !important;
-    text-shadow: 2px 2px 5px #a8dadc;
+    color: #f1faee !important;
     display: inline-block;
     position: relative;
 }
@@ -384,7 +386,6 @@ textarea:focus {
 
     .nav {
         height: 12vh !important;
-        margin-bottom: 5px;
     }
 
     #spec {

@@ -7,7 +7,7 @@ export default function Navigation() {
         activeKey="/"
       >
           <Nav.Item >
-          <Nav.Link href="/" ><Image width={25} height={25} id='navbrand' src="/puzzle-piece.svg" alt="" /></Nav.Link>
+          <Nav.Link href="/" ><img id='navbrand' src="/puzzle-piece.svg" alt="" /></Nav.Link>
         </Nav.Item>
         <Nav.Item >
           <Nav.Link href="/" >Home</Nav.Link>

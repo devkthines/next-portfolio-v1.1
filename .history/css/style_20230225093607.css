@@ -23,12 +23,13 @@
 }
 
 .nav-link {
-    color: #a8dadc !important;
-    text-shadow: 2px 2px 5px #a8dadc;
+    color: #e63946 !important;
     display: inline-block;
     position: relative;
 }
-
+#navbrand{
+    color: #e63946!important;
+}
 .conIcons {
     /* border: 2px solid #a8dadc;
     border-radius: 50px; */
@@ -384,7 +385,6 @@ textarea:focus {
 
     .nav {
         height: 12vh !important;
-        margin-bottom: 5px;
     }
 
     #spec {

@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <>
       <Nav id='nav'
-        activeKey="/"
+        activeKey="/" className='mb-3'
       >
           <Nav.Item >
           <Nav.Link href="/" ><Image width={25} height={25} id='navbrand' src="/puzzle-piece.svg" alt="" /></Nav.Link>

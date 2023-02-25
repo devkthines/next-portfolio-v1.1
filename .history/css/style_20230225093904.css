@@ -24,7 +24,7 @@
 
 .nav-link {
     color: #a8dadc !important;
-    text-shadow: 2px 2px 5px #a8dadc;
+    text-shadow: 1px 1px 1px ;
     display: inline-block;
     position: relative;
 }

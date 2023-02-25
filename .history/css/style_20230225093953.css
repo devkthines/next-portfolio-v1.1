@@ -19,12 +19,12 @@
 }
 
 .light {
-    color: #f1faee !important;
+    color: #e63946 !important;
 }
 
 .nav-link {
     color: #a8dadc !important;
-    text-shadow: 2px 2px 5px #a8dadc;
+    text-shadow: 2px 02px 5px #a8dadc;
     display: inline-block;
     position: relative;
 }
