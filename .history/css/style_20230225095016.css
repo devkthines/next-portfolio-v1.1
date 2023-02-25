@@ -208,7 +208,7 @@
     background-color: #457b9d;
     margin: 5px 10px;
 }
-.btnIcon:hover {
+.btnIcon:focus {
     color: #e63946;
     border: 1px solid #e63946;
     background-color: #a8dadc;
