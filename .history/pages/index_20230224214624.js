@@ -11,7 +11,7 @@ import { AiOutlineFilePdf } from 'react-icons/ai';
 import { BsFillPhoneFill } from 'react-icons/bs';
 import { MdLocationOn } from 'react-icons/md';
 import { SiUpwork } from 'react-icons/si';
-// import PicOfMe from '/images/image_67220481.JPG'
+import PicOfMe from '/imagesimage_67220481.JPG'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -128,8 +128,7 @@ export default function Home() {
           </Col>
 
           <Col id='secCol' className='text-center mt-5' xl={6} lg={6} md={6} sm={12} xs={12}>
-            <Image id='picMe' src="/images/image_67220481.JPG"       width={500}
-      height={500} alt="" />
+            <Image id='picMe' src={PicOfMe} alt="" />
 
           </Col>
         </Row>

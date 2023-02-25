@@ -26,8 +26,7 @@ console.log(data)
     {data.map(x =>(
     <Col className='d-flex justify-content-center mt-2 mb-2' xl={3} lg={3} md={6} sm={6} xs={12}>
   <div className="projCont">
-  <Image src='/images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg'       width={500}
-      height={500} alt="Avatar" className="projImage"/>
+  <Image src='/images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg' alt="Avatar" className="projImage"/>
   <div className='hiddentProjects'> <h3 className="content-text">{x.title}</h3>
         <p className="content-text">{x.subTitle}</p>
        <a className='content-links' href={x.gitLink}><GoMarkGithub/></a>

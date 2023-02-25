@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Form from 'react-bootstrap/Form';
 import Navigation from '../components/nav'
 import { useState,useEffect } from 'react';
-// import bg from '/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg'
+import bg from '/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg'
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState(
 
@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
       }, [theme]);
   return (
     <div style={{
-      backgroundImage: `url(/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg)`,
+      backgroundImage: `url(${bg.src})`,
       width: '100%',
       height: '100%',
     }}>

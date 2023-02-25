@@ -128,8 +128,7 @@ export default function Home() {
           </Col>
 
           <Col id='secCol' className='text-center mt-5' xl={6} lg={6} md={6} sm={12} xs={12}>
-            <Image id='picMe' src="/images/image_67220481.JPG"       width={500}
-      height={500} alt="" />
+            <Image id='picMe' src={PicOfMe} alt="" />
 
           </Col>
         </Row>
