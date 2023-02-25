@@ -168,8 +168,8 @@ export default function Home() {
                 <Card.Title><h3><CgGym /> Crossfit Lover</h3></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                 <Card.Text>
-                If I need to take a break from coding, you can usually find me at the gym hitting the refresh button and pushing
-                  my body to the limits. I do it for mental and physical health.
+                <p> If I need to take a break from coding, you can usually find me at the gym hitting the refresh button and pushing
+                  my body to the limits. I do it for mental and physical health.</p>
                 </Card.Text>
               </Card.Body>
             </Card></Col>
