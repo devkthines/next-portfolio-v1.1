@@ -382,9 +382,12 @@ textarea:focus {
 }
 @media(max-width:1440px) {
 
+
+
     .spec.card {
         height: auto;
     }
+
     .mainFrame {
         height: auto;
     }

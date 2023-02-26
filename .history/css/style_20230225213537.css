@@ -20,7 +20,7 @@
     color: #e63946 !important;
 }
 
-.App.light {
+.light {
     color: #f1faee !important;
 }
 
@@ -382,9 +382,12 @@ textarea:focus {
 }
 @media(max-width:1440px) {
 
+
+
     .spec.card {
         height: auto;
     }
+
     .mainFrame {
         height: auto;
     }

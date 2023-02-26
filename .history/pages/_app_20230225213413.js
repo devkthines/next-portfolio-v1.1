@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Form from 'react-bootstrap/Form';
 import Navigation from '../components/nav'
 import { useState,useEffect } from 'react';
+// import bg from '/images/markus-spiske-GXBF7vaC6L8-unsplash.jpg'
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState(
     typeof window !== "undefined" ? localStorage.theme : "light"
@@ -17,10 +18,10 @@ function MyApp({ Component, pageProps }) {
       };
       useEffect(() => {
         localStorage.setItem('theme', theme);
-    //     document.body.className = theme;
+        document.body.className = theme;
       }, [theme]);
   return (
-    <div className={`App ${theme}`}
+    <div className='App'
     >
       <Head>
         <title>&lt;Korey ❤️ Coding/&gt;</title>

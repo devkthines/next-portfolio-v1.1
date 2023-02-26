@@ -16,11 +16,11 @@
     color: #f1faee;
 }
 
-.App.dark {
+.dark {
     color: #e63946 !important;
 }
 
-.App.light {
+.light {
     color: #f1faee !important;
 }
 
@@ -372,7 +372,7 @@ textarea:focus {
     outline: 0;
     box-shadow: 0 0 0 0.25rem #e63946!important;
 }
-.form-check-input:hover,.form-check-input:active {
+.form-check-input:focus {
     border-color: #e63946!important;
     outline: 0;
     box-shadow: 0 0 0 0.25rem #e63946!important;
@@ -382,9 +382,12 @@ textarea:focus {
 }
 @media(max-width:1440px) {
 
+
+
     .spec.card {
         height: auto;
     }
+
     .mainFrame {
         height: auto;
     }

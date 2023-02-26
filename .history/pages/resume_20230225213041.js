@@ -72,7 +72,7 @@ export default function Skills() {
             <h5>March 2021- March 2022</h5>
             <h6>Persevere</h6>
             <p>Learned Full-Stack Web Development based on the MERN stack.
-              Spent over 3000 hours working on lessons, projects, and group projects.</p>
+              Spent more than 3000 hours working on lessons, projects, and group projects.</p>
 
           </div>
           </Col>

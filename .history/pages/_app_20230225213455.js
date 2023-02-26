@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
       };
       useEffect(() => {
         localStorage.setItem('theme', theme);
-    //     document.body.className = theme;
+        document.body.className = theme;
       }, [theme]);
   return (
     <div className={`App ${theme}`}

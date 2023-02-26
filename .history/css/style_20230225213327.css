@@ -16,12 +16,12 @@
     color: #f1faee;
 }
 
-.App.dark {
+.dark {
     color: #e63946 !important;
 }
 
-.App.light {
-    color: #f1faee !important;
+.light {
+    color: gren !important;
 }
 
 .nav-link {
@@ -382,9 +382,12 @@ textarea:focus {
 }
 @media(max-width:1440px) {
 
+
+
     .spec.card {
         height: auto;
     }
+
     .mainFrame {
         height: auto;
     }
