@@ -82,7 +82,7 @@ export default function Home() {
       'id': 6,
       "placement": "bottom",
       "info": "resume",
-      "icon": <a className='aLink' target="_blank" href="/files/hinesResumeCoverLetter.pdf">
+      "icon": <a className='aLink' target="_blank" href="/files/hinesResume.pdf">
         <button className='quickLinks'><AiOutlineFilePdf /></button></a>
     },
     'phone': {
